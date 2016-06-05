@@ -1,0 +1,93 @@
+body {
+    font-family: 'Open Sans', sans-serif;
+    background: url(images/wallpaper.jpg) no-repeat center center fixed;
+    background-color: rgba(0, 0, 0, 0.5);
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main {
+
+	margin:0 auto;
+    color: white;
+
+    clear: all;
+    /*    match height of two floating divs  */
+    overflow: hidden;
+    width: 100%;
+}
+
+#border {}
+
+#left {
+    float: left;
+    width: 40%;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*    match height of two floating divs  */
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+}
+
+#right {
+    float: left;
+    width: 40%;
+    padding: 50px;
+    border-left: 1px solid black;
+    background-color: rgba(0, 0, 0, 0.5);
+    /*    match height of two floating divs  */
+    padding-bottom: 500em;
+    margin-bottom: -500em;
+}
+
+#nav {
+    /* 50% opacity for supported browsers */
+    background-color: rgba(0, 0, 0, 0.5);
+    float: right;
+    width: 25%;
+    height: 100%;
+}
+
+#intro {
+    font-size: 36px;
+    font-weight: 300;
+    height: 50%;
+    width: 50%;
+    /*    border-style: double;
+    border-width: 1px;*/
+    transition: opacity 6s;
+    /* 	Fading options to support other browsers*/
+    -webkit-animation: fadein 6s;
+    -moz-animation: fadein 6s;
+}
+
+#welcome {
+    margin-top: -10px;
+    font-size: 72px;
+    font-weight: 300;
+    transition: opacity 6s;
+    /* 	Fading options to support other browsers*/
+    -webkit-animation: fadein 6s;
+    -moz-animation: fadein 6s;
+}
+
+#select {
+    font-size: 36px;
+    font-weight: 300;
+    transition: opacity 10s;
+    /* 	Fading options to support other browsers*/
+    -webkit-animation: fadein 10s;
+    -moz-animation: fadein 10s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
