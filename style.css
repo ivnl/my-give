@@ -89,13 +89,8 @@ li a {
 .dropdown:hover .dropbtn {
     background-color: #3e8e41;
 }
-.company1{
-    background-color:red;
-
-}
 
 #text-box {
-
     width: 70%;
     margin: 0 auto;
     text-shadow: 2px 2px 8px black;
@@ -103,6 +98,8 @@ li a {
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 2em;
 }
+
+
 
 #welcome {
     margin-top: -10px;
