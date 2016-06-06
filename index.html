@@ -17,7 +17,6 @@
     <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
     <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
     <script type='text/javascript' src='search.js'></script>
-
     <!-- Icon -->
     <link rel="icon" type="image/png" href="">
 </head>
@@ -26,9 +25,9 @@
     <header>
         <nav>
             <ul class="hnav">
-                <li><a class="active" href="two.html">About</a></li>
-                <li><a href="three.html">Contact</a></li>
-                <li><a href="gallery.html">Login</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="login.html">Login</a></li>
             </ul>
         </nav>
     </header>
@@ -37,23 +36,28 @@
             <h1 id="welcome">Welcome to<span style="color: #ff4d4d; font-weight: 600"> myGive</span>.</h1>
             <h1 id="intro">Our mission is to make charity <span style="font-weight: 300"> simple and transparent</span>.</h1>
             <h1 id="ask">Where would you like to help?</h1>
-            <div class="ui-widget" style="padding-bottom: 50px">
-                <label for="tags"></label>
-                <input id="tags">
-            </div>
-
-            <!--             <div class="dropdown">
-                <button class="dropbtn">Select</button>
-                <div class="dropdown-content">
-                    <a href="#">Link 1</a>
-                    <a href="#">Link 2</a>
-                    <a href="#">Link 3</a>
+            <form onsubmit="return validateForm()">
+                <div class="ui-widget" style="text-align:center">
+                    <label for="tags"></label>
+                    <div id="search-border">
+                    <input id="tags" style="width: 35%; margin-bottom:50px" placeholder=" Ex: Cancer, Education, Environmental">
+                    <input type="submit" style="position:fixed" class="submit-button" value="">
+                    </div>
                 </div>
-            </div> -->
+            </form>
         </div>
     </main>
     <footer>
+<!--         <div class="dropdown">
+            <button class="dropbtn"></button>
+            <div class="dropdown-content">
+                <a href="#">Link 1</a>
+                <a href="#">Link 2</a>
+                <a href="#">Link 3</a>
+            </div>
+        </div> -->
     </footer>
+    <script type='text/javascript' src='form.js'></script>
 </body>
 
 </html>
