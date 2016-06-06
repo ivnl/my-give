@@ -11,25 +11,45 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+    <script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
+    <script type='text/javascript' src='search.js'></script>
+
     <!-- Icon -->
     <link rel="icon" type="image/png" href="">
 </head>
 
 <body>
     <header>
+        <nav>
+            <ul class="hnav">
+                <li><a class="active" href="two.html">About</a></li>
+                <li><a href="three.html">Contact</a></li>
+                <li><a href="gallery.html">Login</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
-        <div id="left">
-            <h1 id="welcome">Welcome to<span style="color: pink; font-weight: 600"> myGive</span>.</h1>
-            <h1 id="intro">Our goal at myGive is to give you a platform where supporting your choice of charity is a seamless and transparent experience.</h1>
-            <h1 id="select">Where would you like to help?</h1>
-        </div>
-        <div id="right">
-            <h1> right 1</h1>
-            <h1> right 2</h1>
-            <h1> right 3</h1>
+        <div id="text-box">
+            <h1 id="welcome">Welcome to<span style="color: #ff4d4d; font-weight: 600"> myGive</span>.</h1>
+            <h1 id="intro">Our mission is to make charity <span style="font-weight: 300"> simple and transparent</span>.</h1>
+            <h1 id="ask">Where would you like to help?</h1>
+            <div class="ui-widget" style="padding-bottom: 50px">
+                <label for="tags"></label>
+                <input id="tags">
+            </div>
+
+            <!--             <div class="dropdown">
+                <button class="dropbtn">Select</button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div> -->
         </div>
     </main>
     <footer>
