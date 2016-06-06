@@ -77,6 +77,10 @@ li a {
     -webkit-animation: fadein 10s;
     -moz-animation: fadein 10s;
 }
+.company1{
+    background-color:red;
+
+}
 
 #text-box {
     width: 65%;
