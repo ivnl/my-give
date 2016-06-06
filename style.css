@@ -77,19 +77,20 @@ li a {
     -webkit-animation: fadein 10s;
     -moz-animation: fadein 10s;
 }
-.company1{
-    background-color:red;
-
-}
 
 #text-box {
-    width: 65%;
+
+
+    width: 70%;
+
     margin: 0 auto;
     text-shadow: 2px 2px 8px black;
     text-align: center;
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 2em;
 }
+
+
 
 #welcome {
     margin-top: -10px;
