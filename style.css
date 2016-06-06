@@ -1,0 +1,141 @@
+html {
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    background: url(images/wallpaper.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main {
+    width: 100%;
+    padding-top: 15%;
+    /*    margin: 0 auto;
+    padding: ;*/
+    color: white;
+    /*    match height of two floating divs  */
+    overflow: hidden;
+}
+
+a {
+    color: black;
+    text-decoration: none;
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+.hnav {
+    text-align: center;
+}
+
+.hnav li {
+    font-size: 24px;
+    text-shadow: 2px 2px 8px black;
+    color: white;
+    display: inline;
+    font-weight: bold;
+    list-style-type: none;
+    padding: 25px;
+}
+
+
+/*dropdown selector*/
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+    padding-bottom: 200px;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
+}
+
+#text-box {
+
+    width: 42%;
+    margin: 0 auto;
+    text-shadow: 2px 2px 8px black;
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 2em;
+}
+
+#welcome {
+    margin-top: -10px;
+    font-size: 72px;
+    font-weight: 300;
+    /*fading*/
+    transition: opacity 5s;
+    -webkit-animation: fadein 5s;
+    -moz-animation: fadein 5s;
+}
+
+#intro {
+    font-size: 28px;
+    font-weight: 600;
+    padding-left: 15%;
+    padding-right: 15%;
+    padding-bottom: 20px;
+    /*fading*/
+    transition: opacity 9s;
+    -webkit-animation: fadein 9s;
+    -moz-animation: fadein 9s;
+}
+
+#ask {
+    font-size: 38px;
+    font-weight: 300;
+    /*fading*/
+    transition: opacity 12s;
+    -webkit-animation: fadein 12s;
+    -moz-animation: fadein 12s;
+}
+
+@keyframes fadein {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
