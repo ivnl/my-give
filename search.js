@@ -2,19 +2,17 @@
             var availableTags = [
                 "Cancer",
                 "Education",
-                "Religious",
+                "Religion",
                 "Natural Disaster",
                 "Catastrophe",
-                "Animal",
+                "Animals",
                 "Environmental",
-                "Poverty",
                 "Health",
-                "Arts & Culture",
+                "Cultural",
                 "Community",
                 "Science",
-                "Medicine",
                 "University",
-                "Veteran"
+                "Space"
             ];
             $("#tags").autocomplete({
                 source: availableTags
