@@ -19,18 +19,23 @@ body {
     -o-background-size: cover;
     background-size: cover;
 }
-}
 
 main {
     width: 100%;
-    padding-top: 10%;
+    padding-top: 5%;
     margin: 0 auto;
     color: white;
     /*    match height of two floating divs  */
     overflow: hidden;
 }
 
-
+.aboutDescription{
+    float: left;
+    margin: 0 -9999rem;
+    /* add back negative margin value */
+    padding: 0.25rem 9999rem;
+    background-color: rgba(255, 255, 255, 0.4);
+}
 /*footer {
     padding-top: 17%;
     text-align: center;
