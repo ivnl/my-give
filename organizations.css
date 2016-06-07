@@ -40,6 +40,14 @@ body {
     width: 75%;
     height: 85%;
 }
+.imageHumane {
+    padding-top: 10px;
+    padding-left: 35px;
+    padding-bottom:10px;
+    width: 75%;
+    height: 75%;
+}
+
 
 #right {
     padding-top: 50px;
