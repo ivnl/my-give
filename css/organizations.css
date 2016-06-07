@@ -7,7 +7,6 @@
      top:10px; 
 }
 #about-box {
-    color:white;
     padding:5px;
     width: 100%;
     margin: 0 auto;
@@ -16,17 +15,10 @@
     background-color: rgba(0, 0, 0, 0.4);
     border-radius: 2em;
 }
-
-body {
-  overflow-x: hidden;
-}
-
-.organization{
+.company1{
     
     float:left; 
-    margin: 0 -9999rem;
-    /* add back negative margin value */
-    padding: 0.25rem 9999rem;
+
     background-color: rgba(255, 255, 255, 0.4);
 }
 #left {
@@ -46,6 +38,6 @@ body {
     padding-top: 50px;
     padding-right: 50px;
     padding-bottom:50px;
-    float: left;
+    float: right;
     width: 35%;
 }
