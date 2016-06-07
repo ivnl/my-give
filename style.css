@@ -11,6 +11,16 @@ body {
     background-size: cover;
 }
 
+.aboutBody{
+    background: url(images/aboutWallpaper.jpg) no-repeat center center fixed;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+}
+
 main {
     width: 100%;
     padding-top: 10%;
