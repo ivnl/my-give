@@ -11,6 +11,7 @@
     <link href='https://fonts.googleapis.com/css?family=Open+Sans:400,300,600' rel='stylesheet' type='text/css'>
     <!-- CSS -->
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="contact.css">
     <link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
     <!-- Scripts -->
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
@@ -19,6 +20,7 @@
     <script type='text/javascript' src='search.js'></script>
     <!-- Icon -->
     <link rel="icon" type="image/png" href="images/heart.ico">
+    <link rel="stylesheet" href="skeleton.css">
 </head>
 
 <body>
@@ -31,44 +33,26 @@
             </ul>
         </nav>
     </header>
-    <main>
-
-        <body class="code-snippets-visible">
-            <!-- Primary Page Layout
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-            <div class="container">
-                <div class="docs-section" id="Contact">
-                    <h6 class="docs-header">Contact</h6>
-                    <div class="docs-example docs-example-forms">
-                        <form action="https://getsimpleform.com/messages?form_api_token=bda06504463f8f4c7ca52e6081382491" method="post">
-                            <input type="hidden" name="redirect_to" value="http://ivnl.co/thankyou">
-                            <div class="row">
-                                <div class="six columns">
-                                    <label for="exampleEmailInput">Your email</label>
-                                    <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="exampleEmailInput" name="email" required>
-                                </div>
-                            </div>
-                            <div class="row">
-                                <div class="12 columns">
-                                    <label for="exampleEmailInput">Message</label>
-                                    <textarea class="u-full-width" type="text" name="message" id="exampleMessage" required></textarea>
-                                </div>
-                            </div>
-                            <input class="button-primary" type="submit" value="submit" />
-                        </form>
+    <div class="container" style="padding-top:20%">
+        <div class="docs-section">
+            <div class="docs-example docs-example-forms" style="background-color: rgba(0, 0, 0, 0.4); height:200px;      border-radius: 2em; width:auto">
+                <form action="https://getsimpleform.com/messages?form_api_token=bda06504463f8f4c7ca52e6081382491" method="post">
+                    <input type="hidden" name="redirect_to" value="http://29gx9627manh35u6u63gnsfl.wpengine.netdna-cdn.com/wp-content/uploads/2015/12/thank-you-1400x800-c-default.gif">
+                    <div class="row" style="padding-bottom:50px">
+                        <div class="six columns" style="padding-left: 250px; padding-top:40px">
+                            <input class="u-full-width" type="email" placeholder="example@mailbox.com" id="exampleEmailInput" name="email" style="font-size:14px" required>
+                        </div>
                     </div>
-                </div>
-                <!-- <p><font size ="3"> Site is under construction </font></p> -->
+                    <div class="row">
+                        <div class="six columns" style="margin-left:250px; padding-top:20px">
+                            <textarea class="u-full-width" type="text" placeholder="Hi, my name is ..." name="message" id="exampleMessage" style="font-size:20px" required></textarea>
+                        </div>
+                    </div>
+                    <input type="submit" style="position:absolute; margin-top:45px; margin-left:270px" class="submit-button2" value="">
+                </form>
             </div>
-            <!-- End Document
-  –––––––––––––––––––––––––––––––––––––––––––––––––– -->
-        </body>
-
-</html>
-</main>
-<footer>
-</footer>
-<script type='text/javascript' src='form.js'></script>
+        </div>
+    </div>
 </body>
 
 </html>
